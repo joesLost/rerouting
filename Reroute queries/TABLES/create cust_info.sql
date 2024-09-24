@@ -1,0 +1,22 @@
+CREATE TABLE customer_information (
+	[cu_id] VARCHAR(50) PRIMARY KEY,
+	[Branch] VARCHAR(50),
+	[Current Route] VARCHAR(50),
+	[Current Delivery Day] VARCHAR(50),
+	[Account] VARCHAR(50),
+	[Customer] VARCHAR(50),
+	[Customer Name] VARCHAR(50),
+	[Street Address 1] VARCHAR(50),
+	[Street Address 2] VARCHAR(50),
+	[City] VARCHAR(50),
+	[State] VARCHAR(50),
+	[Zip] VARCHAR(50),
+	[Frequency] VARCHAR(50),
+	[Stop] VARCHAR(50),
+	[Invoice Count] VARCHAR(50),
+	[Garment Inventory] VARCHAR(50),
+	[Garment Underwash] VARCHAR(50),
+	[Average Weekly Garment Soil Scans] VARCHAR(50),
+	[Wearer Count] VARCHAR(50),
+	[Total Assigned Garments] VARCHAR(50)
+)
